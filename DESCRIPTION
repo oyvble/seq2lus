@@ -1,0 +1,11 @@
+Package: seq2lus
+Type: Package
+Title: A MPS conversion tool from UAS sequence to LUS format 
+Version: 1.0.0
+Date: 2020-09-01
+Author: Oyvind Bleka
+Maintainer: Oyvind Bleka <oyvble@hotmail.com>
+Description: This package contains functions to convert UAS sequences to LUS format.
+License: GPL(>=2)
+Imports: gWidgetstcltk, readxl
+RoxygenNote: 6.1.1
