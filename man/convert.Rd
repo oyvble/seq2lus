@@ -11,7 +11,7 @@ convert(dat, lookupf = NULL, type = "LUS", toFile = FALSE,
 \arguments{
 \item{dat}{A data table with format [SampleName,Marker,Allele,Height] where Alleles are sequences. Height column is optional (indicating Evid if present and Ref if not present).}
 
-\item{lookupf}{The destination/path of the UAS Lookup file (use build-in by default). Must be an xlsx file with same format.}
+\item{lookupf}{The destination/path of the UAS Lookup file (use build-in by default). Must be an xlsx file with same format. Not used if LUSstrR installed}
 
 \item{type}{The convertion type (RU, LUS, LUS+)}
 
@@ -32,8 +32,8 @@ Returning a table with format [SampleName,Marker,Allele,Height]
 Sequence to LUS format converter
 }
 \details{
-Details This script enables users to provide their own UAS sequence data and convert the sequences directly to different formats. The formats supported are RU (Repeat Unit/CE), LUS (Longest Uninterupted Stretch), LUS+ (extended version of LUS), or STRseq (The short format provided by STRseq)
-The lookup table was created by Rebecca Just. The converter
+This script enables users to provide their own UAS sequence data and convert the sequences directly to different formats. The formats supported are RU (Repeat Unit/CE), LUS (Longest Uninterupted Stretch), LUS+ (extended version of LUS), or STRseq (The short format provided by STRseq)
+The lookup table was created by Rebecca Just. The converter can also utilize LUSstrR if installed
 }
 \author{
 Oyvind Bleka (in collaboration with Rebecca Just)

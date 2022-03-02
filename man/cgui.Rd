@@ -8,8 +8,6 @@ cgui(envirfile = NULL)
 }
 \arguments{
 \item{envirfile}{A file is given as input (type="file") or data object: possibly type={"list","table"}}
-
-\item{type}{The object type of ff (type = {"file","list","table"})}
 }
 \description{
 cgui is a GUI wrapper for converting betweem MPS data formats (sequencies) to LUS
